@@ -1,0 +1,95 @@
+
+
+.productpage{
+    max-width: 1300px;
+    margin: 1rem auto;
+    display: flex;
+}
+
+.productleft{
+    display: flex;
+    flex: 0.8;
+}
+
+.leftimg {
+    margin: 1rem;
+    flex: 0.6;
+}
+
+.leftinfo {
+    margin: 1rem;
+    flex: 0.4;
+    background: rgb(191, 199, 191);
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.4) ;
+    border-radius: 8px;
+    height: fit-content;
+    font-size: 0.9rem;
+}
+
+.leftname {
+    font-size: 1.3rem;
+    font-weight: bold; 
+}
+
+.leftinfo > p, 
+.rightinfo > p {
+    padding: 0.5rem;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+}
+
+.leftinfo > p:last-child, 
+.rightinfo > p:last-child {
+    border: none;
+}
+.productright{
+    flex: 0.2;
+}
+
+.rightinfo {
+    border-radius: 8px;
+    width: 250px;
+    margin: 1rem;
+    background: rgb(191, 199, 191);
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.4) ;
+}
+
+.rightinfo  p{
+    padding: 1rem;
+    font-size: 0.8rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.rightinfo p > Button {
+    grid-column: 1/-1;
+
+}
+
+.rightinfo select {
+    padding : 3px 10px;
+}
+
+@media (max-width: 968px) {
+    .productpage{
+        flex-direction: column;
+    }
+    .productleft{
+        flex-direction: column;
+        flex: 1;
+    }
+    .leftimg{
+        flex: 1;
+    }
+    .leftinfo{
+        flex: 1;
+    }
+    .productright{
+        flex: 1;
+        padding: 1rem;
+    }
+    .rightinfo{
+        width: 100%;
+        margin: 0;
+    }
+
+}

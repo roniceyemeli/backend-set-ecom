@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap');
+
+.product {
+    width : 300px;
+    padding: 1rem;
+    background-color: aliceblue;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.4);
+    margin:8px auto ;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.product > img {
+    height: 170px;
+    border-radius: 8px;
+}
+
+.productinfo > p {
+    margin-bottom: 8px;
+}
+
+.infoprice{
+    font-weight: bold;
+}
+
+.infoname{
+    font-size: 1rem;
+    overflow: hidden;
+    font-weight: bold;
+}
+
+.infodescription{
+    font-size: 0.8rem;
+}
+
+.infobtn {
+    display: block;
+    width: 100%;
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    background-color:rgb(104, 223, 163);
+    padding: 8px 16px;
+    border: 1px solid black;
+    font-size: 1rem;
+    font-family:  'Roboto', sans-serif;
+}
+
+.infobtn:hover{
+    background-color: chocolate;
+    color:black
+}
+
+.btns{
+    display: flex;
+    justify-content: space-around;
+}
+
+@media (max-width: 1232px) {
+    .product{
+        width: 250px;
+    }
+}
+
+@media (max-width: 1015px) {
+    .product{
+        width: 270px;
+    }
+}
+
+@media (max-width: 950px) {
+    .product{
+        width: 240px;
+    }
+}
+
+@media (max-width: 750px) {
+    .product{
+        width: 300px;
+    }
+}
+
+@media (max-width: 608px) {
+    .product{
+        width: 240px;
+    }
+}
+
+
+

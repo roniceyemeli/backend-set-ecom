@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Georama:wght@200;200&display=swap');
+
+.footer {
+  border-top: 1px solid #fff;
+  padding: 5px;
+  box-shadow: 2px 2px 5px 5px aliceblue;
+  text-align: center;
+  height: 50px;
+  width: 100%;
+  background-color: rgb(170, 211, 233);
+  margin-top: 20%;
+}
+
+
+.footer span{
+    margin-left: 5px;
+    font-family: 'Georama', sans-serif;
+}

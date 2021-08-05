@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+*  {
+  padding: 0;
+  margin:0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family:  'Roboto', sans-serif;
+  background-color:azure;
+  /* background-image: url("https://res.cloudinary.com/ron2021/image/upload/v1627944503/Ecommerce_first_project_pictures/rhinoAfrica_fwogt3.jpg"); */
+}
+
+
+img {
+  width: 100%;
+  object-fit: contain;
+}

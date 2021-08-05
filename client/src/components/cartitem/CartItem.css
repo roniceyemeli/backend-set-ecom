@@ -1,0 +1,52 @@
+.cartitem{
+    width: 100%;
+    padding: 1rem;
+    margin-bottom: 8px;
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr 1fr 1fr;
+    gap: 8px;
+    border-radius: 3px;
+    place-items: center;
+    background-color: rgb(191, 199, 191);
+}
+
+.cartitemname{
+    text-decoration: none;
+    color: blueviolet;
+}
+.cartitemname:hover{
+    color: chocolate;
+}
+.cartitemselect{
+    padding: 5px 12px;
+}
+.cartitembtndelete{
+    padding: 8px 17px;
+    transition: all 0.3s ease-out;
+}
+
+@media(max-width:700px){
+    .cartitemname{
+        font-size: 0.8rem;
+    }
+    .cartitemselect,
+    .cartitembtndelete{
+        padding: 8px 13px;
+    }
+    .cartitemprice{
+        font-size: 0.8rem;
+    }
+}
+
+@media(max-width:500px) {
+    .cartitemname{
+        font-size: 0.6rem;
+    }
+    .cartitemselect,
+    .cartitembtndelete{
+        padding: 5px 8px;
+    }
+    .cartitemprice{
+        font-size: 0.8rem;
+    }
+}
